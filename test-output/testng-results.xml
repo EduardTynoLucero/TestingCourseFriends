@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T23:32:58 CST" name="Test Flow 1 - LOGIN" finished-at="2025-04-14T23:33:13 CST" duration-ms="14699">
+    <groups>
+    </groups>
+    <test started-at="2025-04-14T23:32:58 CST" name="Test chrome" finished-at="2025-04-14T23:33:13 CST" duration-ms="14629">
+      <class name="testingWeb.tests.login_test.FlowTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@29314cc9]]" started-at="2025-04-14T23:32:58 CST" name="setUp" finished-at="2025-04-14T23:33:08 CST" duration-ms="9779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@29314cc9]]" started-at="2025-04-14T23:33:08 CST" name="logBrowser" finished-at="2025-04-14T23:33:10 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logBrowser -->
+        <test-method signature="goLogin()[pri:1, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@29314cc9]]" started-at="2025-04-14T23:33:10 CST" name="goLogin" finished-at="2025-04-14T23:33:13 CST" duration-ms="3036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goLogin -->
+      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+    </test> <!-- Test chrome -->
+    <test started-at="2025-04-14T23:33:13 CST" name="Test edge" finished-at="2025-04-14T23:33:13 CST" duration-ms="6">
+      <class name="testingWeb.tests.login_test.FlowTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@7412a438]]" started-at="2025-04-14T23:33:13 CST" name="setUp" finished-at="2025-04-14T23:33:13 CST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test. No Probar Navegador edge]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test. No Probar Navegador edge
+at testingWeb.tests.base.BaseTest.setUp(BaseTest.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at testingWeb.tests.login_test.RunTest.main(RunTest.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@7412a438]]" started-at="2025-04-14T23:33:13 CST" name="logBrowser" finished-at="2025-04-14T23:33:13 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logBrowser -->
+      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+    </test> <!-- Test edge -->
+    <test started-at="2025-04-14T23:33:13 CST" name="Test firefox" finished-at="2025-04-14T23:33:13 CST" duration-ms="5">
+      <class name="testingWeb.tests.login_test.FlowTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@526e8108]]" started-at="2025-04-14T23:33:13 CST" name="setUp" finished-at="2025-04-14T23:33:13 CST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test. No Probar Navegador firefox]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test. No Probar Navegador firefox
+at testingWeb.tests.base.BaseTest.setUp(BaseTest.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at testingWeb.tests.login_test.RunTest.main(RunTest.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@526e8108]]" started-at="2025-04-14T23:33:13 CST" name="logBrowser" finished-at="2025-04-14T23:33:13 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logBrowser -->
+      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+    </test> <!-- Test firefox -->
+    <test started-at="2025-04-14T23:33:13 CST" name="Test browsertack" finished-at="2025-04-14T23:33:13 CST" duration-ms="6">
+      <class name="testingWeb.tests.login_test.FlowTest">
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@1e957e2f]]" started-at="2025-04-14T23:33:13 CST" name="logBrowser" finished-at="2025-04-14T23:33:13 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logBrowser -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@1e957e2f]]" started-at="2025-04-14T23:33:13 CST" name="setUp" finished-at="2025-04-14T23:33:13 CST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test. No Probar Navegador browserstack]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test. No Probar Navegador browserstack
+at testingWeb.tests.base.BaseTest.setUp(BaseTest.java:107)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at testingWeb.tests.login_test.RunTest.main(RunTest.java:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+    </test> <!-- Test browsertack -->
+  </suite> <!-- Test Flow 1 - LOGIN -->
+</testng-results>

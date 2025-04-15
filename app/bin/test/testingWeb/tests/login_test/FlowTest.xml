@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- @autor Bryan Lucero !-->
+<!-- <suite name="Test Suite" group-by-instances="true" parallel="tests"> -->
+<suite name="Test Flow 1 - LOGIN" group-by-instances="true">
+    <test name="Test chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testingWeb.tests.login_test.FlowTest"/>
+        </classes>
+    </test>
+    <test name="Test edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testingWeb.tests.login_test.FlowTest"/>
+        </classes>
+    </test>
+    <test name="Test firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testingWeb.tests.login_test.FlowTest"/>
+        </classes>
+    </test>
+    <test name="Test browsertack">
+        <parameter name="browser" value="browserstack"/>
+        <classes>
+            <class name="testingWeb.tests.login_test.FlowTest"/>
+        </classes>
+    </test>
+</suite>

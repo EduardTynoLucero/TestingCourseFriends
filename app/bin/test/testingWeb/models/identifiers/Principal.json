@@ -1,0 +1,24 @@
+{
+  
+    "usuario": {
+        "id": "login-drawer-email",
+        "name": "email",
+        "type": "text",
+        "text": "Correo electrónico",
+        "xPath": "//*[@id='login-drawer-email']"
+      },
+      "contrasena": {
+        "id": "login-drawer-password",
+        "name": "password",
+        "type": "password",
+        "text": "Contraseña",
+        "xPath": "//*[@id='login-drawer-password']"
+      },
+      "iniciarSesion": {
+        "id": "login-drawer-login-button",
+        "name": null,
+        "type": "button",
+        "text": "Iniciar sesión",
+        "xPath": "//*[@id='login-drawer-login-button']"
+    }
+  }
