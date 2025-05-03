@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-14T23:32:58 CST" name="Test Flow 1 - LOGIN" finished-at="2025-04-14T23:33:13 CST" duration-ms="14699">
+  <suite started-at="2025-05-02T22:38:31 CST" name="Test Flow 1 - LOGIN" finished-at="2025-05-02T22:38:57 CST" duration-ms="25444">
     <groups>
     </groups>
-    <test started-at="2025-04-14T23:32:58 CST" name="Test chrome" finished-at="2025-04-14T23:33:13 CST" duration-ms="14629">
-      <class name="testingWeb.tests.login_test.FlowTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@29314cc9]]" started-at="2025-04-14T23:32:58 CST" name="setUp" finished-at="2025-04-14T23:33:08 CST" duration-ms="9779" status="PASS">
+    <test started-at="2025-05-02T22:38:31 CST" name="Test chrome" finished-at="2025-05-02T22:38:57 CST" duration-ms="25260">
+      <class name="testingWeb.tests.search_product.FlowTestSearchProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@48ea2003]]" started-at="2025-05-02T22:38:31 CST" name="setUp" finished-at="2025-05-02T22:38:38 CST" duration-ms="6227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@29314cc9]]" started-at="2025-04-14T23:33:08 CST" name="logBrowser" finished-at="2025-04-14T23:33:10 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="1689" status="PASS">
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@48ea2003]]" started-at="2025-05-02T22:38:38 CST" name="logBrowser" finished-at="2025-05-02T22:38:39 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="1549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBrowser -->
-        <test-method signature="goLogin()[pri:1, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@29314cc9]]" started-at="2025-04-14T23:33:10 CST" name="goLogin" finished-at="2025-04-14T23:33:13 CST" duration-ms="3036" status="PASS">
+        <test-method signature="goLogin()[pri:1, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@48ea2003]]" started-at="2025-05-02T22:38:39 CST" name="goLogin" finished-at="2025-05-02T22:38:42 CST" duration-ms="3050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goLogin -->
-      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+        <test-method signature="transactionSearchProducto()[pri:2, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@48ea2003]]" started-at="2025-05-02T22:38:42 CST" name="transactionSearchProducto" finished-at="2025-05-02T22:38:57 CST" duration-ms="14323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionSearchProducto -->
+      </class> <!-- testingWeb.tests.search_product.FlowTestSearchProduct -->
     </test> <!-- Test chrome -->
-    <test started-at="2025-04-14T23:33:13 CST" name="Test edge" finished-at="2025-04-14T23:33:13 CST" duration-ms="6">
-      <class name="testingWeb.tests.login_test.FlowTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@7412a438]]" started-at="2025-04-14T23:33:13 CST" name="setUp" finished-at="2025-04-14T23:33:13 CST" duration-ms="1" status="SKIP">
+    <test started-at="2025-05-02T22:38:57 CST" name="Test edge" finished-at="2025-05-02T22:38:57 CST" duration-ms="43">
+      <class name="testingWeb.tests.search_product.FlowTestSearchProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@576b7c74]]" started-at="2025-05-02T22:38:57 CST" name="setUp" finished-at="2025-05-02T22:38:57 CST" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -66,22 +70,22 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
-at testingWeb.tests.login_test.RunTest.main(RunTest.java:16)
+at testingWeb.tests.search_product.RunTestSearchProduct.main(RunTestSearchProduct.java:18)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@7412a438]]" started-at="2025-04-14T23:33:13 CST" name="logBrowser" finished-at="2025-04-14T23:33:13 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@576b7c74]]" started-at="2025-05-02T22:38:57 CST" name="logBrowser" finished-at="2025-05-02T22:38:57 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBrowser -->
-      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+      </class> <!-- testingWeb.tests.search_product.FlowTestSearchProduct -->
     </test> <!-- Test edge -->
-    <test started-at="2025-04-14T23:33:13 CST" name="Test firefox" finished-at="2025-04-14T23:33:13 CST" duration-ms="5">
-      <class name="testingWeb.tests.login_test.FlowTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@526e8108]]" started-at="2025-04-14T23:33:13 CST" name="setUp" finished-at="2025-04-14T23:33:13 CST" duration-ms="0" status="SKIP">
+    <test started-at="2025-05-02T22:38:57 CST" name="Test firefox" finished-at="2025-05-02T22:38:57 CST" duration-ms="20">
+      <class name="testingWeb.tests.search_product.FlowTestSearchProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@1ca3d25b]]" started-at="2025-05-02T22:38:57 CST" name="setUp" finished-at="2025-05-02T22:38:57 CST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -117,26 +121,22 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
-at testingWeb.tests.login_test.RunTest.main(RunTest.java:16)
+at testingWeb.tests.search_product.RunTestSearchProduct.main(RunTestSearchProduct.java:18)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@526e8108]]" started-at="2025-04-14T23:33:13 CST" name="logBrowser" finished-at="2025-04-14T23:33:13 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@1ca3d25b]]" started-at="2025-05-02T22:38:57 CST" name="logBrowser" finished-at="2025-05-02T22:38:57 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logBrowser -->
-      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+      </class> <!-- testingWeb.tests.search_product.FlowTestSearchProduct -->
     </test> <!-- Test firefox -->
-    <test started-at="2025-04-14T23:33:13 CST" name="Test browsertack" finished-at="2025-04-14T23:33:13 CST" duration-ms="6">
-      <class name="testingWeb.tests.login_test.FlowTest">
-        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@1e957e2f]]" started-at="2025-04-14T23:33:13 CST" name="logBrowser" finished-at="2025-04-14T23:33:13 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logBrowser -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTest passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@1e957e2f]]" started-at="2025-04-14T23:33:13 CST" name="setUp" finished-at="2025-04-14T23:33:13 CST" duration-ms="0" status="SKIP">
+    <test started-at="2025-05-02T22:38:57 CST" name="Test browsertack" finished-at="2025-05-02T22:38:57 CST" duration-ms="14">
+      <class name="testingWeb.tests.search_product.FlowTestSearchProduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@ee8e7ff]]" started-at="2025-05-02T22:38:57 CST" name="setUp" finished-at="2025-05-02T22:38:57 CST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -172,14 +172,18 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 at org.testng.TestNG.runSuites(TestNG.java:1092)
 at org.testng.TestNG.run(TestNG.java:1060)
-at testingWeb.tests.login_test.RunTest.main(RunTest.java:16)
+at testingWeb.tests.search_product.RunTestSearchProduct.main(RunTestSearchProduct.java:18)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-      </class> <!-- testingWeb.tests.login_test.FlowTest -->
+        <test-method is-config="true" signature="logBrowser()[pri:0, instance:[FlowTestSearchProduct passed=0 failed=0 skipped=0], instance params:[[Ljava.lang.String;@ee8e7ff]]" started-at="2025-05-02T22:38:57 CST" name="logBrowser" finished-at="2025-05-02T22:38:57 CST" depends-on-methods="testingWeb.tests.base.BaseTest.setUp" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logBrowser -->
+      </class> <!-- testingWeb.tests.search_product.FlowTestSearchProduct -->
     </test> <!-- Test browsertack -->
   </suite> <!-- Test Flow 1 - LOGIN -->
 </testng-results>

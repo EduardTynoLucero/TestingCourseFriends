@@ -109,7 +109,7 @@ public class BaseTest extends TestListenerAdapter implements IExecutionListener 
             }
         } else { // Configuración del navegador no encontrada
         
-            System.out.println("ERRRORRRRR");
+            System.out.println("ERRROR NO HAY NINGUN LINK PARA ABRIR");
         }
     }
 
