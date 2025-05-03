@@ -1,5 +1,4 @@
-package testingWeb.tests.login_test;
-
+package testingWeb.tests.search_product;
 import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 
@@ -11,19 +10,22 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.testng.TestInstanceParameter;
 import testingWeb.services.utils.TheDataProvider;
+import testingWeb.services.search_product.PrincipalServiceSearchProduct;
 import testingWeb.tests.base.BaseTest;
 
-public class FlowTest extends BaseTest {
 
-    String text;
+
+public class FlowTestSearchProduct extends BaseTest {
+
+    String product;
 
     @TestInstanceParameter("Interaction")
     private Object[] args;
 
 	@Factory(dataProvider = "provideClassArgs", dataProviderClass = TheDataProvider.class)
-    public FlowTest(Object[] args){
+    public FlowTestSearchProduct(Object[] args){
         this.args = args;
-        this.text = args[0].toString();
+        this.product = args[1].toString();
     }
     
     @Severity(SeverityLevel.CRITICAL)
@@ -32,6 +34,17 @@ public class FlowTest extends BaseTest {
 	private void goLogin() throws InterruptedException {
        Thread.sleep(3000);
 	    
+	}
+
+    @Severity(SeverityLevel.CRITICAL)
+	@Description("")
+	@Test(priority = 2, description = "")
+	private void transactionSearchProducto() throws InterruptedException {
+        PrincipalServiceSearchProduct thePrincipalServiceSearchProduct = new PrincipalServiceSearchProduct(webDriver);
+
+        Thread.sleep(3000);
+        thePrincipalServiceSearchProduct.transactionSearchProducto(product);
+        Thread.sleep(10000);
 	}
 
 }

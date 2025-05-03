@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Flow 1 - LOGIN]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testingWeb.tests.search_product.FlowTestSearchProduct">
+        <methods>
+          <include name="setUp"/>
+          <include name="logBrowser"/>
+          <include name="transactionSearchProducto" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testingWeb.tests.search_product.FlowTestSearchProduct -->
+    </classes>
+  </test> <!-- Test chrome(failed) -->
+</suite> <!-- Failed suite [Test Flow 1 - LOGIN] -->
